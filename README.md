@@ -4,6 +4,8 @@ Beautiful ready to be used screens for React Native apps
 
 ## Installation
 
+This library is using React Native Elements. Please install it first. Follow the instructions here: https://react-native-elements.github.io/react-native-elements/docs/getting_started.html
+
 ```sh
 npm install @farfarawaylabs/react-native-beautiful-screens
 ```
@@ -21,7 +23,7 @@ import {
   CoverScreenOneTitle,
   CoverScreenOneDescription,
   CoverScreenOneButton,
-} from '@farfarawaylabs/react-native-beautiful-ui';
+} from '@farfarawaylabs/react-native-beautiful-screens';
 import { View } from 'react-native';
 
 export default function App() {
@@ -62,7 +64,7 @@ COnfigure it using the following props:
 
 ```js
 import React, { useState } from 'react';
-import { CoverScreenTwo } from '@farfarawaylabs/react-native-beautiful-ui';
+import { CoverScreenTwo } from '@farfarawaylabs/react-native-beautiful-screens';
 import { View } from 'react-native';
 
 export default function App() {
@@ -87,7 +89,7 @@ This component represent a fully designed login screen. It is built as a composa
 
 ```js
 import React, { useState } from 'react';
-import { LoginScreenOne } from '@farfarawaylabs/react-native-beautiful-ui';
+import { LoginScreenOne } from '@farfarawaylabs/react-native-beautiful-screens';
 import { View } from 'react-native';
 
 export default function App() {
@@ -158,7 +160,7 @@ We also provide a few wrapper components each one is a fully designed slide in c
 
 ```js
 import React, { useState } from 'react';
-import { IntroScreen } from '@farfarawaylabs/react-native-beautiful-ui';
+import { IntroScreen } from '@farfarawaylabs/react-native-beautiful-screens';
 import { View, Button, Image } from 'react-native';
 import { Center } from '@farfarawaylabs/react-native-layout';
 
@@ -235,7 +237,7 @@ Props:
 
 ```js
 import React, { useState } from 'react';
-import { AskPermissionScreen } from '@farfarawaylabs/react-native-beautiful-ui';
+import { AskPermissionScreen } from '@farfarawaylabs/react-native-beautiful-screens';
 
 export default function App() {
   const demoImage = require('../demoImages/notificationsDemo.png');

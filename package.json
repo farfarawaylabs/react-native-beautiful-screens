@@ -1,6 +1,6 @@
 {
   "name": "@farfarawaylabs/react-native-beautiful-screens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Beautiful ready to be used screens for React Native apps",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -58,7 +58,8 @@
     "react": "~16.9.0",
     "react-native": "~0.61.5",
     "release-it": "^13.5.8",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "react-native-elements": "^2.0.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -135,7 +136,6 @@
   },
   "dependencies": {
     "@farfarawaylabs/react-native-beauitful-controls": "^1.0.0",
-    "@farfarawaylabs/react-native-layout": "^1.0.3",
-    "react-native-elements": "^2.0.0"
+    "@farfarawaylabs/react-native-layout": "^1.0.3"
   }
 }
