@@ -1,7 +1,7 @@
 {
   "name": "@farfarawaylabs/react-native-beautiful-screens-example",
   "description": "Example app for @farfarawaylabs/react-native-beautiful-screens",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -13,7 +13,9 @@
     "react": "16.11.0",
     "react-native": "0.62.0",
     "react-native-elements": "^2.0.1",
-    "react-native-vector-icons": "^6.6.0"
+    "react-native-vector-icons": "^6.6.0",
+    "@react-native-community/blur": "^3.6.0",
+    "react-native-safe-area-context": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
