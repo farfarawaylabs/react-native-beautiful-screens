@@ -1138,15 +1138,13 @@
   dependencies:
     find-up "^4.0.0"
 
-"@farfarawaylabs/react-native-beauitful-controls@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@farfarawaylabs/react-native-beauitful-controls/-/react-native-beauitful-controls-1.0.0.tgz#7be3baee1830a04c2c45be151edd708ffc73265a"
-  integrity sha512-qHLL/N6+Um9N1eDMDNnruUC+8XdwacOcfjGnsfhV0UDn0/8OkxklK7AR0UOAWpm5ORauA/t434/0yeXU5Ig19g==
+"@farfarawaylabs/react-native-beauitful-controls@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@farfarawaylabs/react-native-beauitful-controls/-/react-native-beauitful-controls-1.1.0.tgz#4484bfd5a6bf966dae32678fb1e6c046d2163d3a"
+  integrity sha512-5raj2b21tikOl+1QZhMEZuazM0YDCbW/RnA1OxO4Cc/YqA4coyumroVLBZolgOu9ejfCKySLpCFruG/urCcTog==
   dependencies:
     "@farfarawaylabs/react-native-hooks" "^0.1.0"
     "@farfarawaylabs/react-native-layout" "^1.0.3"
-    "@react-native-community/blur" "^3.6.0"
-    react-native-safe-area-context "^3.0.2"
 
 "@farfarawaylabs/react-native-hooks@^0.1.0":
   version "0.1.0"
@@ -1565,13 +1563,6 @@
   integrity sha512-+4X6qfhT/fk/5FD66395NrFLxCzD6FsGlpPwfwvnukdyfYbhiZB/FJltiT1XM5Q63rGGBSf9FPaNV3WpNHm54A==
   dependencies:
     "@types/node" ">= 8"
-
-"@react-native-community/blur@^3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/blur/-/blur-3.6.0.tgz#31c9e0f2770519c9b5c4f99418f192246f0d4db8"
-  integrity sha512-GtDBhpX2pQcjl4VopOC8FktrVufrEfYRwVeMQ2WWckqKIv2BdwvlvWvj88L1WmEdBr9UNcm3rtgz+d+YXkmirA==
-  dependencies:
-    prop-types "^15.5.10"
 
 "@react-native-community/bob@^0.14.5":
   version "0.14.5"
@@ -7950,11 +7941,6 @@ react-native-ratings@^6.5.0:
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
-
-react-native-safe-area-context@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.0.2.tgz#95dd7e56bc89bcc4f3f7bb5fada30c98420328b2"
-  integrity sha512-x3yVMsxwe9GyvIkv0Q5jy2CWYN7VO0/CJTFGG5kSiMo8FFTQJbWtuWGANFqxDzEH5NEV7/SfK+qTgAh931KyUw==
 
 react-native-status-bar-height@^2.2.0:
   version "2.5.0"

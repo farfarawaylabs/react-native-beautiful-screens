@@ -673,10 +673,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@farfarawaylabs/react-native-beauitful-controls@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@farfarawaylabs/react-native-beauitful-controls/-/react-native-beauitful-controls-1.0.0.tgz#7be3baee1830a04c2c45be151edd708ffc73265a"
-  integrity sha512-qHLL/N6+Um9N1eDMDNnruUC+8XdwacOcfjGnsfhV0UDn0/8OkxklK7AR0UOAWpm5ORauA/t434/0yeXU5Ig19g==
+"@farfarawaylabs/react-native-beauitful-controls@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@farfarawaylabs/react-native-beauitful-controls/-/react-native-beauitful-controls-1.0.2.tgz#1ba8121b562fa2944355fb4ef38e95f0a6d8b784"
+  integrity sha512-zYHomK6rSB7Yh2rchy3XERcmRCt/mfu42RAZiwnsOxbR1N2+pCWvWsNNQ2pcPnRJ/YT2Q3AdSjjggePOcF4oHg==
   dependencies:
     "@farfarawaylabs/react-native-hooks" "^0.1.0"
     "@farfarawaylabs/react-native-layout" "^1.0.3"

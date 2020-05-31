@@ -3,9 +3,9 @@ PODS:
   - CocoaAsyncSocket (7.6.4)
   - CocoaLibEvent (1.0.0)
   - DoubleConversion (1.1.6)
-  - farfarawaylabs-react-native-beauitful-controls (1.0.0):
+  - farfarawaylabs-react-native-beauitful-controls (1.0.2):
     - React
-  - farfarawaylabs-react-native-beautiful-screens (0.1.0):
+  - farfarawaylabs-react-native-beautiful-screens (0.1.1):
     - React
   - FBLazyVector (0.62.0)
   - FBReactNativeSpec (0.62.0):
@@ -418,8 +418,8 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CocoaLibEvent: 2fab71b8bd46dd33ddb959f7928ec5909f838e3f
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  farfarawaylabs-react-native-beauitful-controls: a7665516daf8c0e64590a6c9322e0f59674a7c3d
-  farfarawaylabs-react-native-beautiful-screens: 5eaff35652016dc84a10eeb7c58cb39ca53e96ab
+  farfarawaylabs-react-native-beauitful-controls: 465b13f94f33b0370dd688bb0db92d3f953c82b3
+  farfarawaylabs-react-native-beautiful-screens: ff87c4f399e4abaf0b5fb3897a20d20f89f48077
   FBLazyVector: 545eccf4f6ef2de8fd450fd8a1edb3f913c7371a
   FBReactNativeSpec: 85c7f8347f4a6e911742228e89e245187afa298e
   Flipper: 6c1f484f9a88d30ab3e272800d53688439e50f69

@@ -7,7 +7,12 @@ Beautiful ready to be used screens for React Native apps
 This library is using React Native Elements. Please install it first. Follow the instructions here: https://react-native-elements.github.io/react-native-elements/docs/getting_started.html
 
 ```sh
+npm install @react-native-community/blur react-native-safe-area-context
+
 npm install @farfarawaylabs/react-native-beautiful-screens
+
+cd ios
+pod install
 ```
 
 ## CoverScreenOne

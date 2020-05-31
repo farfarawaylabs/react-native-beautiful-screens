@@ -57,14 +57,16 @@
     "prettier": "^2.0.5",
     "react": "~16.9.0",
     "react-native": "~0.61.5",
+    "react-native-elements": "^2.0.0",
     "release-it": "^13.5.8",
-    "typescript": "^3.8.3",
-    "react-native-elements": "^2.0.0"
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-elements": "^2.0.0"
+    "react-native-elements": "^2.0.0",
+    "@react-native-community/blur": "^3.6.0",
+    "react-native-safe-area-context": "^3.0.2"
   },
   "jest": {
     "preset": "react-native",
@@ -135,7 +137,7 @@
     ]
   },
   "dependencies": {
-    "@farfarawaylabs/react-native-beauitful-controls": "^1.0.0",
+    "@farfarawaylabs/react-native-beauitful-controls": "^1.1.0",
     "@farfarawaylabs/react-native-layout": "^1.0.3"
   }
 }
