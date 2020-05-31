@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, ViewStyle, StyleProp, TextStyle } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button, ButtonProps } from 'react-native-elements';
 
-export interface CoverScreenOneButtonProps {
+export interface CoverScreenOneButtonProps extends ButtonProps {
   /** The title of the button */
   title: string;
 
   /**
    * Additional styles or styles to override default style
    */
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
 
   /**
    * Title styling
@@ -26,10 +26,12 @@ const CoverScreenOneButton: React.FC<CoverScreenOneButtonProps> = ({
   titleStyle,
   ...rest
 }) => {
+  const buttonStyle = StyleSheet.flatten([styles.button, style]);
+  const mergedTitleStyle = StyleSheet.flatten([styles.title, titleStyle]);
   return (
     <Button
-      buttonStyle={[styles.button, style]}
-      titleStyle={[styles.title, titleStyle]}
+      buttonStyle={buttonStyle}
+      titleStyle={mergedTitleStyle}
       {...rest}
       title={title}
     />

@@ -1,6 +1,6 @@
 {
   "name": "@farfarawaylabs/react-native-beautiful-screens",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Beautiful ready to be used screens for React Native apps",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

@@ -19,7 +19,7 @@ import {
 import { Center } from '@farfarawaylabs/react-native-layout';
 
 export default function App() {
-  return <ShowLoginScreenOne />;
+  return <ShowCoverScreenOne />;
 }
 
 const ShowCoverScreenOne = () => {
