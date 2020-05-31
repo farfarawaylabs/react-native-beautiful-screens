@@ -1,7 +1,7 @@
 {
   "name": "@farfarawaylabs/react-native-beautiful-screens-example",
   "description": "Example app for @farfarawaylabs/react-native-beautiful-screens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
