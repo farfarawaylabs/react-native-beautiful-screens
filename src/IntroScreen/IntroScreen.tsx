@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { StyleSheet, ViewStyle, StyleProp } from 'react-native';
 import { Carousel } from '@farfarawaylabs/react-native-beauitful-controls';
 import IntroScreenSlide from './IntroScreenSlide';
@@ -20,6 +20,15 @@ export interface IntroScreenProps {
   /** The color of the active dot. Defaults to '#232323' */
   activeDotColor?: string;
 
+  /** Event handler to call when the done button is pressed */
+  onDone?: (currentIndex: number) => void;
+
+  /** The title of the done button. Defaults to 'Done' */
+  doneButtonTitle?: string;
+
+  /** Your own custom element to be used as the done button */
+  doneButton?: ReactElement;
+
   /**
    * Additional styles or styles to override default style
    */
@@ -34,21 +43,26 @@ const Screen: React.FC<IntroScreenProps> = ({
   dotColor = '#FFF',
   activeDotColor = '#232323',
   showDots = true,
+  onDone,
+  doneButtonTitle,
+  doneButton,
+  style,
 }) => {
   return (
-    <Carousel.Container>
+    <Carousel.Container style={style}>
       <Carousel.Slides>{children}</Carousel.Slides>
       {showDots && (
         <Carousel.Navigation
           dotColor={dotColor}
           activeDotColor={activeDotColor}
+          onDone={onDone}
+          doneButtonTitle={doneButtonTitle}
+          doneButton={doneButton}
         />
       )}
     </Carousel.Container>
   );
 };
-
-const styles = StyleSheet.create({});
 
 const IntroScreen = {
   Screen: Screen,

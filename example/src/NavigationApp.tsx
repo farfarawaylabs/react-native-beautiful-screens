@@ -17,9 +17,19 @@ import {
   GoogleLoginButton,
 } from '@farfarawaylabs/react-native-beauitful-controls';
 import { Center } from '@farfarawaylabs/react-native-layout';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function App() {
-  return <ShowIntroScreen />;
+const Stack = createStackNavigator();
+
+export default function NavigationApp() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={ShowIntroScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
 }
 
 const ShowCoverScreenOne = () => {

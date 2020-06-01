@@ -134,6 +134,12 @@ We also provide a few wrapper components each one is a fully designed slide in c
 
 - style: Additional styles or styles to override default style
 
+- onDone: Event handler to call when the done button is pressed
+
+- doneButtonTitle: The title of the done button. Defaults to 'Done'
+
+- doneButton: Your own custom element to be used as the done button
+
 ### IntroScreen.Slide Props:
 
 - shouldUseSafeAreaView: Determine if the slide should be displayed inside a SafeAreaView. If true, remember to set the slide background color as well. Defaults to false.
